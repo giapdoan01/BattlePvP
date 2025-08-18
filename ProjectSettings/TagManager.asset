@@ -46,8 +46,14 @@ TagManager:
   - name: GroundCheck
     uniqueID: 1463677231
     locked: 0
-  - name: BackGround
+  - name: Background1
+    uniqueID: 1308868937
+    locked: 0
+  - name: BackGround2
     uniqueID: 1164819247
+    locked: 0
+  - name: Background3
+    uniqueID: 1726362883
     locked: 0
   - name: Backgroundon
     uniqueID: 70176415
@@ -61,7 +67,10 @@ TagManager:
   - name: Player
     uniqueID: 3358501175
     locked: 0
-  - name: UI Background
+  - name: GroundOn
+    uniqueID: 360672993
+    locked: 0
+  - name: 'UI '
     uniqueID: 3180814191
     locked: 0
   - name: Text, Button

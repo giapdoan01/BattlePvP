@@ -2,9 +2,9 @@
 
     public abstract class  PassiveBase:MonoBehaviour
     {
-        protected Player owner;
+        protected PlayerController owner;
         
-        public virtual void Intialize(Player player)
+        public virtual void Intialize(PlayerController player)
         {
             owner = player;
         }    

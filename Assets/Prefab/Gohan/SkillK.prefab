@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportDistance: 5
-  teleportDuration: 1
+  teleportDuration: 0.5
   obstacleLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295

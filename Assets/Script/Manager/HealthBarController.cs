@@ -17,10 +17,18 @@ public class HealthBarController : MonoBehaviour
         {
             backgroundTransform.localPosition = Vector3.zero;
         }
+        else
+        {
+            Debug.LogError("backgroundTransform not attached in Inspector!");
+        }
 
         if (fillTransform != null)
         {
             fillTransform.localPosition = new Vector3(-1.095f, 0f, 0f);
+        }
+        else
+        {
+            Debug.LogError("fillTransform not attached in Inspector!");
         }
     }
 
