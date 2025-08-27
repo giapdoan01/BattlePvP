@@ -16,12 +16,12 @@ public class GohanSkillJ : MonoBehaviour, ISkill
 
     [Header("Hit Effect Pool Settings")]
     private static string hitEffectPoolTag = "SkillJHitEffect";
-    private static int hitEffectPoolSize = 5;
+    private static int hitEffectPoolSize = 10;
     private static bool hitEffectPoolInitialized = false;
 
     private static bool poolInitialized = false;
     private static string poolTag = "SkillJ";
-    private static int poolSize = 10;
+    private static int poolSize = 5;
 
     private GameObject owner;
     private bool facingRight = true;

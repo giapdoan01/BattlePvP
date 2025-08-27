@@ -31,6 +31,9 @@ public class PlayerController : MonoBehaviour
     private Vector2 originalColliderOffset;
     private Vector3 originalGroundCheckLocalPos;
 
+    public float AIXInput { get; set; } = 0f;
+    public bool UseAIControl = false;
+
     private void Awake()
     {
         // Get all components
@@ -66,6 +69,7 @@ public class PlayerController : MonoBehaviour
 
     void HandleInput()
     {
+        if (UseAIControl) return;
         // Jump input
         if ((Input.GetKeyDown(jumpKey1) || Input.GetKeyDown(jumpKey2)) && isGrounded)
         {
@@ -75,7 +79,7 @@ public class PlayerController : MonoBehaviour
 
     void MovePlayer()
     {
-        float moveInput = Input.GetAxisRaw("Horizontal");
+        float moveInput = UseAIControl ? AIXInput : Input.GetAxisRaw("Horizontal");
 
         // Apply movement
         rb.linearVelocity = new Vector2(moveInput * playerSpeed, rb.linearVelocity.y);
@@ -87,7 +91,7 @@ public class PlayerController : MonoBehaviour
             Flip(true);
     }
 
-    void Jump()
+    public void Jump()
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
     }
@@ -107,7 +111,9 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("IsJumping", !isGrounded);
     }
 
-    void Flip(bool faceRight)
+    public bool IsFacingRight => isFacingRight;
+
+    public void Flip(bool faceRight)
     {
         isFacingRight = faceRight;
         spriteRenderer.flipX = !isFacingRight;
@@ -126,7 +132,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // ✅ PUBLIC METHODS CHO ONEWAYPLATFORM
     public Vector2 GetVelocity()
     {
         return rb.linearVelocity;

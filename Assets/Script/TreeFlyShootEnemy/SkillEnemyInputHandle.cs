@@ -28,11 +28,6 @@ public class SkillEnemyInputHandle : MonoBehaviour
         {
             firePoint = transform;
         }
-        else
-        {
-            Debug.LogError("firePoint not attached in Inspector!");
-        }
-
             // ✅ Set thời gian bắt đầu
             lastAttackTime = Time.time;
     }
