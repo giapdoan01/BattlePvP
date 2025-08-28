@@ -1,5 +1,4 @@
-﻿// AnimatedHitEffect.cs
-using UnityEngine;
+﻿using UnityEngine;
 
 public class AnimatedHitEffect : MonoBehaviour
 {
@@ -9,16 +8,11 @@ public class AnimatedHitEffect : MonoBehaviour
 
     void OnEnable()
     {
-        // Nếu có animator thì play animation từ đầu
         if (animator != null)
         {
-            animator.Play(0, 0, 0f); // Play layer 0, state 0, từ frame 0
-            // Hoặc có thể dùng:
-            // animator.Rebind(); // Reset về trạng thái ban đầu
-            // animator.Update(0f); // Update ngay lập tức
-        }
+            animator.Play(0, 0, 0f);
 
-        // Tự deactivate sau animationDuration
+        }
         Invoke(nameof(DeactivateEffect), animationDuration);
     }
 

@@ -217,7 +217,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -936466121
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_Sprite: {fileID: -1048147753999033212, guid: 08f3ab24292d97948916b3a20a0fa8ef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -274,6 +274,7 @@ MonoBehaviour:
   jumpKey1: 119
   jumpKey2: 32
   dropKey: 115
+  UseAIControl: 0
 --- !u!114 &7508526774996912607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,6 +290,15 @@ MonoBehaviour:
   maxHealth: 2000
   healthBarPrefab: {fileID: 1343251023189175155, guid: 701b4c85df0c9624489206fa0b58a50a, type: 3}
   takeDamageDuration: 0.5
+  canRespawn: 0
+  respawnTime: 3
+  respawnPoint: {fileID: 0}
+  mainObject: {fileID: 0}
+  autoFindRootParent: 1
+  useAnimations: 1
+  takeDamageParameter: IsTakeDamage
+  isDeadParameter: IsDead
+  deathAnimationDelay: 1
 --- !u!114 &4806567641714540487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,9 +316,11 @@ MonoBehaviour:
   cooldownK: 4
   cooldownL: 70
   cooldownEnemyAttack: 1
+  characterUIPrefab: {fileID: 5684355589109645397, guid: 4915ae5dba7bffd43a2113aad4e51166, type: 3}
   animator: {fileID: 0}
   isFacingRight: 1
   skillFactory: {fileID: 0}
+  UseAIControl: 0
 --- !u!1 &1465669366588945673
 GameObject:
   m_ObjectHideFlags: 0

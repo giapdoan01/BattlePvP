@@ -11,6 +11,9 @@ public class SkillInputHandler : MonoBehaviour
     public float cooldownL = 1f;
     public float cooldownEnemyAttack = 1f;
 
+    [Header("Character UI")]
+    public GameObject characterUIPrefab;
+
     private Dictionary<string, bool> canUseSkill = new Dictionary<string, bool>();
 
     public Animator animator;
@@ -35,6 +38,8 @@ public class SkillInputHandler : MonoBehaviour
         canUseSkill["J"] = true;
         canUseSkill["K"] = true;
         canUseSkill["L"] = true;
+
+        SpawnCharacterUI();
     }
 
     void Update()
@@ -69,6 +74,18 @@ public class SkillInputHandler : MonoBehaviour
         canUseSkill[key] = true; // Mở lại skill
     }
 
+    void SpawnCharacterUI()
+    {
+        if (characterUIPrefab != null)
+        {
+            GameObject ui = Instantiate(characterUIPrefab);
+            CharacterSkillUI skillUI = ui.GetComponent<CharacterSkillUI>();
+            if (skillUI != null)
+            {
+                skillUI.SetSkillHandler(this);
+            }
+        }
+    }
     // Các hàm này sẽ được gọi từ Animation Event
     public void SpawnSkillH()
     {
