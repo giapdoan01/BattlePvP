@@ -299,6 +299,8 @@ MonoBehaviour:
   takeDamageParameter: IsTakeDamage
   isDeadParameter: IsDead
   deathAnimationDelay: 1
+  autoDisableOnDeath: 1
+  componentsToDisable: []
 --- !u!114 &4806567641714540487
 MonoBehaviour:
   m_ObjectHideFlags: 0

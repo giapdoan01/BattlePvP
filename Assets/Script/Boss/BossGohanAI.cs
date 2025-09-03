@@ -9,9 +9,9 @@ public class BossGohanAI : MonoBehaviour
     public float decisionInterval = 0.4f;
 
     [Header("Movement Settings")]
-    public float minDistanceToTarget = 3f;    // Khoảng cách tối thiểu với target
-    public float jumpHeightThreshold = 1.5f;  // Khoảng cách Y để quyết định nhảy
-    public float idleTime = 2f;               // Thời gian đứng yên khi mất target
+    public float minDistanceToTarget = 3f; 
+    public float jumpHeightThreshold = 1.5f;
+    public float idleTime = 2f;
 
     private Transform target;
     private PlayerController playerController;
@@ -36,14 +36,14 @@ public class BossGohanAI : MonoBehaviour
         RunAI();
     }
 
+    // Phân tích và cập nhật mục tiêu hiện tại
     void AnalyzeTarget()
     {
         Transform newTarget = FindClosestTarget();
         
-        // Nếu mất target
         if (newTarget == null)
         {
-            if (target != null) // Vừa mới mất target
+            if (target != null) 
             {
                 StartIdleState();
             }
@@ -51,28 +51,33 @@ public class BossGohanAI : MonoBehaviour
             return;
         }
 
-        // Có target mới
         target = newTarget;
         isIdle = false;
 
-        // Quay mặt về phía target
-        if (playerController != null)
-        {
-            float dir = target.position.x - transform.position.x;
-            if (dir > 0 && !playerController.IsFacingRight)
-                playerController.Flip(true);
-            else if (dir < 0 && playerController.IsFacingRight)
-                playerController.Flip(false);
-        }
+        UpdateFacingDirection();
+    }
+    
+    // Cập nhật hướng đối mặt dựa trên vị trí mục tiêu
+    void UpdateFacingDirection()
+    {
+        if (target == null || playerController == null) return;
+
+        float dir = target.position.x - transform.position.x;
+        if (dir > 0.1f && !playerController.IsFacingRight)
+            playerController.Flip(true);
+        else if (dir < -0.1f && playerController.IsFacingRight)
+            playerController.Flip(false);
     }
 
+    // Bắt đầu trạng thái nhàn rỗi
     void StartIdleState()
     {
         isIdle = true;
         idleTimer = idleTime;
-        playerController.AIXInput = 0; // Dừng di chuyển
+        playerController.AIXInput = 0;
     }
-
+    
+    // Chạy logic AI chính
     void RunAI()
     {
         if (isIdle)
@@ -88,7 +93,8 @@ public class BossGohanAI : MonoBehaviour
             decisionTimer = decisionInterval;
         }
     }
-
+    
+    // Xử lý trạng thái nhàn rỗi
     void HandleIdleState()
     {
         idleTimer -= Time.deltaTime;
@@ -98,6 +104,7 @@ public class BossGohanAI : MonoBehaviour
         }
     }
 
+    // Quyết định hành động dựa trên vị trí của mục tiêu
     void MakeDecision()
     {
         if (target == null || playerController == null || skillInput == null) return;
@@ -106,7 +113,6 @@ public class BossGohanAI : MonoBehaviour
         float verticalDistance = target.position.y - transform.position.y;
         float moveDir = Mathf.Sign(target.position.x - transform.position.x);
 
-        // Chỉ di chuyển về phía target, không đi lùi
         if (horizontalDistance > minDistanceToTarget)
         {
             bool shouldMove = (moveDir > 0 && playerController.IsFacingRight) || (moveDir < 0 && !playerController.IsFacingRight);
@@ -117,35 +123,62 @@ public class BossGohanAI : MonoBehaviour
             playerController.AIXInput = 0;
         }
 
-        // Xử lý nhảy
         if (verticalDistance > jumpHeightThreshold && playerController.IsGrounded())
         {
             playerController.Jump();
         }
 
-        // Đảm bảo boss quay mặt đúng hướng trước khi dùng skill
-        if (playerController != null)
-        {
-            float dir = target.position.x - transform.position.x;
-            if (dir > 0 && !playerController.IsFacingRight)
-                playerController.Flip(true);
-            else if (dir < 0 && playerController.IsFacingRight)
-                playerController.Flip(false);
-        }
-
-        // Xử lý skill theo khoảng cách
         float distance = Vector2.Distance(transform.position, target.position);
         
         if (distance <= 1.5f && skillInput.CanUseSkill("H"))
+        {
+            UpdateFacingDirectionForSkill();
             skillInput.TriggerSkill("H");
+        }
         else if (distance <= 6f && skillInput.CanUseSkill("J"))
+        {
+            UpdateFacingDirectionForSkill();
             skillInput.TriggerSkill("J");
+        }
         else if (distance <= 5f && skillInput.CanUseSkill("K"))
+        {
+            UpdateFacingDirectionForSkill();
             skillInput.TriggerSkill("K");
+        }
         else if (distance <= detectionRange && skillInput.CanUseSkill("L"))
+        {
+            UpdateFacingDirectionForSkill();
             skillInput.TriggerSkill("L");
+        }
+    }
+    
+    // Cập nhật hướng đối mặt trước khi sử dụng kỹ năng
+    void UpdateFacingDirectionForSkill()
+    {
+        if (target == null || playerController == null) return;
+
+        float dir = target.position.x - transform.position.x;
+        
+        if (dir > 0.05f && !playerController.IsFacingRight)
+        {
+            playerController.Flip(true);
+        }
+        else if (dir < -0.05f && playerController.IsFacingRight)
+        {
+            playerController.Flip(false);
+        }
+
+        if (skillInput != null)
+        {
+            var facingRightField = skillInput.GetType().GetField("isFacingRight");
+            if (facingRightField != null)
+            {
+                facingRightField.SetValue(skillInput, playerController.IsFacingRight);
+            }
+        }
     }
 
+    //Tim target gần nhất trong phạm vi 'detectionRange'
     Transform FindClosestTarget()
     {
         Collider2D[] targets = Physics2D.OverlapCircleAll(transform.position, detectionRange, targetLayer);
@@ -163,21 +196,23 @@ public class BossGohanAI : MonoBehaviour
         return closest;
     }
 
+    // Vẽ phạm vi phát hiện và khoảng cách tối thiểu trong Scene view
     void OnDrawGizmosSelected()
     {
-        // Visualize detection range
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRange);
         
-        // Visualize minimum distance
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, minDistanceToTarget);
 
         if (target != null)
         {
-            // Visualize target line
             Gizmos.color = Color.green;
             Gizmos.DrawLine(transform.position, target.position);
+            
+            Vector3 direction = (target.position - transform.position).normalized;
+            Gizmos.color = Color.blue;
+            Gizmos.DrawRay(transform.position, direction * 2f);
         }
     }
 }

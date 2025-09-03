@@ -17,17 +17,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private KeyCode jumpKey2 = KeyCode.Space;
     [SerializeField] private KeyCode dropKey = KeyCode.S;
 
-    // Components
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private BoxCollider2D boxCol;
 
-    // States
+
     private bool isGrounded;
     private bool isFacingRight = true;
 
-    // Original positions (for flipping)
+
     private Vector2 originalColliderOffset;
     private Vector3 originalGroundCheckLocalPos;
 
@@ -66,7 +65,8 @@ public class PlayerController : MonoBehaviour
     {
         MovePlayer();
     }
-
+    
+    // Xử lý input người chơi
     void HandleInput()
     {
         if (UseAIControl) return;
@@ -77,6 +77,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    // Di chuyển người chơi
     void MovePlayer()
     {
         float moveInput = UseAIControl ? AIXInput : Input.GetAxisRaw("Horizontal");
@@ -91,11 +92,13 @@ public class PlayerController : MonoBehaviour
             Flip(true);
     }
 
+    // Nhảy
     public void Jump()
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
     }
 
+    // Kiểm tra xem người chơi có đang chạm đất không
     void CheckGrounded()
     {
         if (groundCheck == null) return;
@@ -103,6 +106,7 @@ public class PlayerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
     }
 
+    // Cập nhật trạng thái animation
     void UpdateAnimation()
     {
         if (animator == null) return;
@@ -111,8 +115,10 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("IsJumping", !isGrounded);
     }
 
+    // Lấy thông tin hướng người chơi
     public bool IsFacingRight => isFacingRight;
 
+    // Lật hướng người chơi
     public void Flip(bool faceRight)
     {
         isFacingRight = faceRight;
@@ -132,38 +138,45 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    // Lấy vận tốc hiện tại
     public Vector2 GetVelocity()
     {
         return rb.linearVelocity;
     }
 
+    // Kiểm tra xem người chơi có đang di chuyển lên không (cho OneWayPlatform)
     public bool IsMovingUp()
     {
         bool movingUp = rb.linearVelocity.y > 0.1f;
         return movingUp;
     }
 
+    // Kiểm tra xem người chơi có đang di chuyển xuống không (cho OneWayPlatform)
     public bool IsGrounded()
     {
         return isGrounded;
     }
 
+    // Kiểm tra xem người chơi có đang nhấn nút xuống không (cho OneWayPlatform)
     public bool IsPressingDown()
     {
         bool pressing = Input.GetKey(dropKey) || Input.GetAxisRaw("Vertical") < -0.5f;
         return pressing;
     }
 
+    // Lấy Renderer của người chơi
     public Renderer GetRenderer()
     {
         return spriteRenderer;
     }
 
+    // Lấy Transform của người chơi
     public Transform GetTransform()
     {
         return transform;
     }
 
+    // Vẽ Gizmos để kiểm tra ground check và hướng vận tốc
     void OnDrawGizmosSelected()
     {
         if (groundCheck != null)

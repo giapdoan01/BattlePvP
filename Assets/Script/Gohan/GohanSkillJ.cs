@@ -12,7 +12,7 @@ public class GohanSkillJ : MonoBehaviour, ISkill
     [Header("Hit Effect Settings")]
     public GameObject hitEffectPrefab; // Prefab hiệu ứng nổ
     public bool destroyOnHit = false; // Có destroy skill sau khi hit không
-    public float hitEffectDuration = 2f; // Thời gian hiệu ứng nổ tồn tại
+    public float hitEffectDuration = 1f; // Thời gian hiệu ứng nổ tồn tại
 
     [Header("Hit Effect Pool Settings")]
     private static string hitEffectPoolTag = "SkillJHitEffect";

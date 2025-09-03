@@ -18,11 +18,11 @@ public class SkillInputHandler : MonoBehaviour
 
     public Animator animator;
     private SpriteRenderer spriteRenderer;
-    public bool isFacingRight = true;
+    public bool isFacingRight = false;
 
     public SkillFactory skillFactory;
 
-    public bool UseAIControl = false;
+    public bool UseAIControl = true;
 
     void Awake()
     {

@@ -7,8 +7,5 @@
         public virtual void Intialize(PlayerController player)
         {
             owner = player;
-        }    
-
-        
-        
+        }      
     }

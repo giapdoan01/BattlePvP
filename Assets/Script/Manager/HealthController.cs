@@ -31,6 +31,15 @@ public class HealthController : MonoBehaviour, TakeDamageInterface, IHealthObser
     [Tooltip("Thời gian chờ animation death chạy trước khi ẩn object")]
     public float deathAnimationDelay = 1f;
 
+    // ===== THÊM MỚI - Auto disable components khi chết =====
+    [Header("Auto Disable On Death")]
+    [Tooltip("Tự động disable các components khi IsDead = true")]
+    public bool autoDisableOnDeath = true;
+    
+    [Tooltip("Các components sẽ bị disable (để trống sẽ tự động tìm tất cả MonoBehaviour trừ HealthController)")]
+    public MonoBehaviour[] componentsToDisable;
+    // ====================================================
+
     // Events
     public event Action<float, float> OnHealthChanged;
     public event Action OnDeath;
@@ -44,7 +53,12 @@ public class HealthController : MonoBehaviour, TakeDamageInterface, IHealthObser
 
     private Vector3 originalPosition;
     private Quaternion originalRotation;
-    private GameObject targetObject; // Object thực sự sẽ bị ẩn/hiện
+    private GameObject targetObject;
+
+    // ===== THÊM MỚI - Lưu trạng thái components =====
+    private MonoBehaviour[] allComponents;
+    private bool[] originalStates;
+    // ===============================================
 
     private void Awake()
     {
@@ -64,6 +78,46 @@ public class HealthController : MonoBehaviour, TakeDamageInterface, IHealthObser
             originalPosition = targetObject.transform.position;
             originalRotation = targetObject.transform.rotation;
         }
+
+        // ===== THÊM MỚI - Chuẩn bị danh sách components =====
+        PrepareComponentsForDisabling();
+        // ==================================================
+    }
+
+    private void PrepareComponentsForDisabling()
+    {
+        if (!autoDisableOnDeath) return;
+
+        if (componentsToDisable == null || componentsToDisable.Length == 0)
+        {
+            // Tự động tìm tất cả MonoBehaviour components trừ HealthController
+            var allMonoBehaviours = GetComponents<MonoBehaviour>();
+            var validComponents = new System.Collections.Generic.List<MonoBehaviour>();
+            
+            foreach (var comp in allMonoBehaviours)
+            {
+                if (comp != this && comp != null) // Không disable chính mình
+                {
+                    validComponents.Add(comp);
+                }
+            }
+            
+            allComponents = validComponents.ToArray();
+        }
+        else
+        {
+            allComponents = componentsToDisable;
+        }
+
+        // Lưu trạng thái ban đầu
+        originalStates = new bool[allComponents.Length];
+        for (int i = 0; i < allComponents.Length; i++)
+        {
+            if (allComponents[i] != null)
+            {
+                originalStates[i] = allComponents[i].enabled;
+            }
+        }
     }
 
     private void DetermineMainObject()
@@ -74,7 +128,6 @@ public class HealthController : MonoBehaviour, TakeDamageInterface, IHealthObser
         }
         else if (autoFindRootParent)
         {
-            // Tìm root parent
             Transform current = transform;
             while (current.parent != null)
             {
@@ -94,7 +147,6 @@ public class HealthController : MonoBehaviour, TakeDamageInterface, IHealthObser
         IsDead = false;
         IsRespawning = false;
 
-        // Tạo health bar
         if (healthBarPrefab != null)
         {
             GameObject barObj = Instantiate(healthBarPrefab, transform);
@@ -115,7 +167,6 @@ public class HealthController : MonoBehaviour, TakeDamageInterface, IHealthObser
         currentHealth = Mathf.Max(0, currentHealth - amount);
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
 
-        // Animation take damage
         if (useAnimations && animator != null && HasAnimatorParameter(takeDamageParameter))
         {
             animator.SetBool(takeDamageParameter, true);
@@ -165,8 +216,6 @@ public class HealthController : MonoBehaviour, TakeDamageInterface, IHealthObser
         if (IsDead) return;
 
         IsDead = true;
-
-        // Animation death
         if (useAnimations && animator != null && HasAnimatorParameter(isDeadParameter))
         {
             animator.SetBool(isDeadParameter, true);
@@ -176,22 +225,45 @@ public class HealthController : MonoBehaviour, TakeDamageInterface, IHealthObser
 
         if (canRespawn)
         {
-            // Delay ẩn object để animation có thời gian chạy
             Invoke(nameof(HideObjectAfterDeath), deathAnimationDelay);
-
-            // Schedule respawn sau thời gian death animation + respawn time
             Invoke(nameof(StartRespawnProcess), deathAnimationDelay + respawnTime);
         }
         else
         {
-            // Delay destroy để animation có thời gian chạy
             Invoke(nameof(DestroyCharacter), deathAnimationDelay + 0.5f);
         }
     }
 
+
+    private void DisableAllComponents()
+    {
+        if (!autoDisableOnDeath || allComponents == null) return;
+
+        for (int i = 0; i < allComponents.Length; i++)
+        {
+            if (allComponents[i] != null && allComponents[i].enabled)
+            {
+                allComponents[i].enabled = false;
+            }
+        }
+    }
+
+    private void EnableAllComponents()
+    {
+        if (!autoDisableOnDeath || allComponents == null) return;
+
+        for (int i = 0; i < allComponents.Length; i++)
+        {
+            if (allComponents[i] != null && originalStates[i]) // Chỉ enable những cái ban đầu đã enabled
+            {
+                allComponents[i].enabled = true;
+            }
+        }
+    }
+    // ===============================================
+
     private void HideObjectAfterDeath()
     {
-        // Ẩn object sau khi animation death đã chạy
         if (targetObject != null && IsDead)
         {
             targetObject.SetActive(false);
@@ -205,23 +277,17 @@ public class HealthController : MonoBehaviour, TakeDamageInterface, IHealthObser
 
     public void Respawn()
     {
-        if (!canRespawn)
-        {
-            return;
-        }
+        if (!canRespawn) return;
 
-        // Hiện lại object chính TRƯỚC KHI reset trạng thái
         if (targetObject != null)
         {
             targetObject.SetActive(true);
         }
 
-        // Reset trạng thái
         IsDead = false;
         IsRespawning = false;
         currentHealth = maxHealth;
 
-        // Reset vị trí của object chính
         if (targetObject != null)
         {
             if (respawnPoint != null)
@@ -236,7 +302,10 @@ public class HealthController : MonoBehaviour, TakeDamageInterface, IHealthObser
             }
         }
 
-        // Reset animator
+
+        EnableAllComponents();
+
+
         if (useAnimations && animator != null)
         {
             if (HasAnimatorParameter(isDeadParameter))
@@ -245,12 +314,11 @@ public class HealthController : MonoBehaviour, TakeDamageInterface, IHealthObser
                 animator.SetBool(takeDamageParameter, false);
         }
 
-        // Thông báo sự kiện hồi sinh
         OnRespawn?.Invoke();
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
     }
 
-    // Utility functions
+    // Utility functions (giữ nguyên)
     public void SetMainObject(GameObject obj)
     {
         mainObject = obj;
@@ -287,7 +355,6 @@ public class HealthController : MonoBehaviour, TakeDamageInterface, IHealthObser
     {
         if (IsDead)
         {
-            // Cancel tất cả invoke liên quan đến death/respawn
             CancelInvoke(nameof(StartRespawnProcess));
             CancelInvoke(nameof(HideObjectAfterDeath));
             CancelInvoke(nameof(DestroyCharacter));
@@ -302,7 +369,6 @@ public class HealthController : MonoBehaviour, TakeDamageInterface, IHealthObser
 
     public void DestroyCharacter()
     {
-
         if (targetObject != null)
         {
             Destroy(targetObject);
@@ -317,76 +383,8 @@ public class HealthController : MonoBehaviour, TakeDamageInterface, IHealthObser
         }
     }
 
-    public void KillPermanently()
-    {
-
-        bool originalCanRespawn = canRespawn;
-        canRespawn = false;
-
-        // Cancel tất cả respawn
-        CancelInvoke(nameof(StartRespawnProcess));
-        CancelInvoke(nameof(HideObjectAfterDeath));
-
-        if (!IsDead)
-        {
-            Die();
-        }
-        else
-        {
-            // Nếu đã chết thì destroy luôn
-            CancelInvoke(nameof(DestroyCharacter));
-            Invoke(nameof(DestroyCharacter), 0.1f);
-        }
-
-        canRespawn = originalCanRespawn;
-    }
-
-    // Context menu functions
-    [ContextMenu("Auto Find Root Parent")]
-    public void AutoFindRootParent()
-    {
-        autoFindRootParent = true;
-        DetermineMainObject();
-    }
-
-    [ContextMenu("Enable Respawn")]
-    public void EnableRespawn()
-    {
-        SetRespawnEnabled(true);
-    }
-
-    [ContextMenu("Test Kill and Respawn")]
-    public void TestKillAndRespawn()
-    {
-        SetRespawnEnabled(true);
-        SetRespawnTime(2f);
-        TakeDamage(maxHealth);
-    }
-
-    [ContextMenu("Test Death Animation")]
-    public void TestDeathAnimation()
-    {
-        SetRespawnEnabled(false);
-        SetDeathAnimationDelay(2f); // 2 giây để xem animation
-        TakeDamage(maxHealth);
-    }
-
-    //[ContextMenu("Show Debug Info")]
-    //public void ShowDebugInfo()
-    //{
-    //    Debug.Log($"=== Debug Info cho {gameObject.name} ===");
-    //    Debug.Log($"Target Object: {(targetObject != null ? targetObject.name : "null")}");
-    //    Debug.Log($"IsDead: {IsDead}");
-    //    Debug.Log($"IsRespawning: {IsRespawning}");
-    //    Debug.Log($"CanRespawn: {canRespawn}");
-    //    Debug.Log($"Current HP: {currentHealth}/{maxHealth}");
-    //    Debug.Log($"Death Animation Delay: {deathAnimationDelay}");
-    //    Debug.Log($"Respawn Time: {respawnTime}");
-    //}
-
     private void OnDestroy()
     {
-        // Cancel tất cả invoke khi object bị destroy
         CancelInvoke();
     }
 }

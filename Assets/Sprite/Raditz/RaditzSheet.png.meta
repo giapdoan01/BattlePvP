@@ -1,67 +1,76 @@
 fileFormatVersion: 2
-guid: 08f3ab24292d97948916b3a20a0fa8ef
+guid: c2114c29ebc714f41ae77c7e77a549f7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1048147753999033212
-    second: Gohan-Sheet_0
+      213: -7809674675708065630
+    second: RaditzSheet_0
   - first:
-      213: -156986877505918017
-    second: Gohan-Sheet_1
+      213: -6349830185235828692
+    second: RaditzSheet_1
   - first:
-      213: 6250408360287946765
-    second: Gohan-Sheet_2
+      213: -236064089468685675
+    second: RaditzSheet_2
   - first:
-      213: -8119651701307292809
-    second: Gohan-Sheet_3
+      213: -3287057294018885328
+    second: RaditzSheet_3
   - first:
-      213: -6650192178580813025
-    second: Gohan-Sheet_4
+      213: -2774423581535799736
+    second: RaditzSheet_4
   - first:
-      213: -6465153597302169924
-    second: Gohan-Sheet_5
+      213: -1932059820899632429
+    second: RaditzSheet_5
   - first:
-      213: -4953386311522164113
-    second: Gohan-Sheet_6
+      213: 1881559155148024449
+    second: RaditzSheet_6
   - first:
-      213: 7359364385003020895
-    second: Gohan-Sheet_7
+      213: 7812674276286668618
+    second: RaditzSheet_7
   - first:
-      213: 1397882708540407366
-    second: Gohan-Sheet_8
+      213: -8467991088794573072
+    second: RaditzSheet_8
   - first:
-      213: 6329805823132776992
-    second: Gohan-Sheet_9
+      213: 2969925359446825468
+    second: RaditzSheet_9
   - first:
-      213: 6094027146349511307
-    second: Gohan-Sheet_10
+      213: 2219041319770494790
+    second: RaditzSheet_10
   - first:
-      213: -8500448565483872371
-    second: Gohan-Sheet_11
+      213: -314253661339590324
+    second: RaditzSheet_11
   - first:
-      213: 732806834059774506
-    second: Gohan-Sheet_12
+      213: 1354693653593354343
+    second: RaditzSheet_12
   - first:
-      213: -2693208643796123119
-    second: Gohan-Sheet_13
+      213: -4669414770169063439
+    second: RaditzSheet_13
   - first:
-      213: 3170259540246043218
-    second: Gohan-Sheet_14
+      213: 9024061238721005793
+    second: RaditzSheet_14
   - first:
-      213: 6044273222380547404
-    second: Gohan-Sheet_15
+      213: -6754706796515970379
+    second: RaditzSheet_15
   - first:
-      213: -6745229775371313581
-    second: Gohan-Sheet_16
+      213: 9209654769832180583
+    second: RaditzSheet_16
   - first:
-      213: -7526110733155938230
-    second: Gohan-Sheet_17
+      213: 335556921871214316
+    second: RaditzSheet_17
   - first:
-      213: 7264540660792756697
-    second: Gohan-Sheet_18
+      213: 656816254141462905
+    second: RaditzSheet_18
   - first:
-      213: 2231809827166187789
-    second: Gohan-Sheet_19
+      213: 59033673441475301
+    second: RaditzSheet_19
+  - first:
+      213: -8133869572499339831
+    second: RaditzSheet_20
+  - first:
+      213: -5549339387797055902
+    second: RaditzSheet_21
+  - first:
+      213: 1361713002152011015
+    second: RaditzSheet_22
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,7 +138,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -157,353 +166,441 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gohan-Sheet_0
+      name: RaditzSheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 100
-        height: 100
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48c93cacb2b3471f0800000000000000
-      internalID: -1048147753999033212
+      spriteID: 2a88e0782467e9390800000000000000
+      internalID: -7809674675708065630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gohan-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fbbacd3444542ddf0800000000000000
-      internalID: -156986877505918017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gohan-Sheet_2
+      name: RaditzSheet_1
       rect:
         serializedVersion: 2
         x: 200
         y: 0
-        width: 100
-        height: 100
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d084810a949edb650800000000000000
-      internalID: 6250408360287946765
+      spriteID: c2037f0e61fd0e7a0800000000000000
+      internalID: -6349830185235828692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gohan-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 773cea32cc3315f80800000000000000
-      internalID: -8119651701307292809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gohan-Sheet_4
+      name: RaditzSheet_2
       rect:
         serializedVersion: 2
         x: 400
         y: 0
-        width: 100
-        height: 100
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f1b0c93a275c5b3a0800000000000000
-      internalID: -6650192178580813025
+      spriteID: 5923efa16f459bcf0800000000000000
+      internalID: -236064089468685675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gohan-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbe177e9e092746a0800000000000000
-      internalID: -6465153597302169924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gohan-Sheet_6
+      name: RaditzSheet_3
       rect:
         serializedVersion: 2
         x: 600
         y: 0
-        width: 100
-        height: 100
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f626072d469024bb0800000000000000
-      internalID: -4953386311522164113
+      spriteID: 039c5a18ec60262d0800000000000000
+      internalID: -3287057294018885328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gohan-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 700
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f5224c4aae6b12660800000000000000
-      internalID: 7359364385003020895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gohan-Sheet_8
+      name: RaditzSheet_4
       rect:
         serializedVersion: 2
         x: 800
         y: 0
-        width: 100
-        height: 100
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64e3638cae6466310800000000000000
-      internalID: 1397882708540407366
+      spriteID: 846771eb3744f79d0800000000000000
+      internalID: -2774423581535799736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gohan-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 02a37010cdcf7d750800000000000000
-      internalID: 6329805823132776992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gohan-Sheet_10
+      name: RaditzSheet_5
       rect:
         serializedVersion: 2
         x: 1000
         y: 0
-        width: 100
-        height: 100
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8200cde665529450800000000000000
-      internalID: 6094027146349511307
+      spriteID: 3daf87254d1ff25e0800000000000000
+      internalID: -1932059820899632429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gohan-Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 1100
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d8fdad62117580a80800000000000000
-      internalID: -8500448565483872371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gohan-Sheet_12
+      name: RaditzSheet_6
       rect:
         serializedVersion: 2
         x: 1200
         y: 0
-        width: 100
-        height: 100
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2a8c19dee37b2a00800000000000000
-      internalID: 732806834059774506
+      spriteID: 18a6b7a2514ac1a10800000000000000
+      internalID: 1881559155148024449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gohan-Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 1300
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1124588f10dcf9ad0800000000000000
-      internalID: -2693208643796123119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gohan-Sheet_14
+      name: RaditzSheet_7
       rect:
         serializedVersion: 2
         x: 1400
         y: 0
-        width: 100
-        height: 100
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25a982e41460ffb20800000000000000
-      internalID: 3170259540246043218
+      spriteID: a4f16e76cd13c6c60800000000000000
+      internalID: 7812674276286668618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gohan-Sheet_15
+      name: RaditzSheet_8
       rect:
         serializedVersion: 2
-        x: 1500
+        x: 1600
         y: 0
-        width: 100
-        height: 100
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c4de569c87291e350800000000000000
-      internalID: 6044273222380547404
+      spriteID: 0f6e93758f6ab7a80800000000000000
+      internalID: -8467991088794573072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaditzSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 0.30621886, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9904b016b473920800000000000000
+      internalID: 2969925359446825468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaditzSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 0.3062189, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64795d6c25e9bce10800000000000000
+      internalID: 2219041319770494790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaditzSheet_11
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 0.3062189, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41ec72c5fb83abf0800000000000000
+      internalID: -314253661339590324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaditzSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76078e153b6dcc210800000000000000
+      internalID: 1354693653593354343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaditzSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f75c139108e23fb0800000000000000
+      internalID: -4669414770169063439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaditzSheet_14
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8465592e7eb3d70800000000000000
+      internalID: 9024061238721005793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaditzSheet_15
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2bfbfd4f57242a0800000000000000
+      internalID: -6754706796515970379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaditzSheet_16
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b34d3e7344fcf70800000000000000
+      internalID: 9209654769832180583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaditzSheet_17
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6ae0a1e3328a400800000000000000
+      internalID: 335556921871214316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaditzSheet_18
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979fdc637ea7d1900800000000000000
+      internalID: 656816254141462905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaditzSheet_19
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eaf34f20dab1d000800000000000000
+      internalID: 59033673441475301
       vertices: []
       indices: 
       edges: []
@@ -512,7 +609,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c5c01d0fd8b45c742bb6822d3f63e6af
+    spriteID: 38a8ed2166830634a81c18ca5dfb7e72
     internalID: 0
     vertices: []
     indices: 
@@ -522,22 +619,26 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gohan-Sheet_0: -1048147753999033212
-      Gohan-Sheet_1: -156986877505918017
-      Gohan-Sheet_10: 6094027146349511307
-      Gohan-Sheet_11: -8500448565483872371
-      Gohan-Sheet_12: 732806834059774506
-      Gohan-Sheet_13: -2693208643796123119
-      Gohan-Sheet_14: 3170259540246043218
-      Gohan-Sheet_15: 6044273222380547404
-      Gohan-Sheet_2: 6250408360287946765
-      Gohan-Sheet_3: -8119651701307292809
-      Gohan-Sheet_4: -6650192178580813025
-      Gohan-Sheet_5: -6465153597302169924
-      Gohan-Sheet_6: -4953386311522164113
-      Gohan-Sheet_7: 7359364385003020895
-      Gohan-Sheet_8: 1397882708540407366
-      Gohan-Sheet_9: 6329805823132776992
+      RaditzSheet_0: -7809674675708065630
+      RaditzSheet_1: -6349830185235828692
+      RaditzSheet_10: 2219041319770494790
+      RaditzSheet_11: -314253661339590324
+      RaditzSheet_12: 1354693653593354343
+      RaditzSheet_13: -4669414770169063439
+      RaditzSheet_14: 9024061238721005793
+      RaditzSheet_15: -6754706796515970379
+      RaditzSheet_16: 9209654769832180583
+      RaditzSheet_17: 335556921871214316
+      RaditzSheet_18: 656816254141462905
+      RaditzSheet_19: 59033673441475301
+      RaditzSheet_2: -236064089468685675
+      RaditzSheet_3: -3287057294018885328
+      RaditzSheet_4: -2774423581535799736
+      RaditzSheet_5: -1932059820899632429
+      RaditzSheet_6: 1881559155148024449
+      RaditzSheet_7: 7812674276286668618
+      RaditzSheet_8: -8467991088794573072
+      RaditzSheet_9: 2969925359446825468
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
