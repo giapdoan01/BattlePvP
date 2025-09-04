@@ -47,6 +47,6 @@ public class CharacterSelector : MonoBehaviour
     {
         PlayerPrefs.SetInt("SelectCharacter", characterSelectedIndex);
         Debug.Log($"Đã chọn {characterSelectedIndex}");
-        SceneManager.LoadScene("GameMap1");
+        SceneManager.LoadScene("MainGameScene");
     }
 }

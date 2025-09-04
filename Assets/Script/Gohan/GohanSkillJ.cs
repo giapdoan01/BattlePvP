@@ -14,7 +14,10 @@ public class GohanSkillJ : MonoBehaviour, ISkill
     public bool destroyOnHit = false; // Có destroy skill sau khi hit không
     public float hitEffectDuration = 1f; // Thời gian hiệu ứng nổ tồn tại
 
-    [Header("Hit Effect Pool Settings")]
+    [Header("Audio Settings")]
+    public AudioClip skillSound;       // Âm thanh khi phát skill
+    public float audioVolume = 0.7f;
+    private AudioSource audioSource;
     private static string hitEffectPoolTag = "SkillJHitEffect";
     private static int hitEffectPoolSize = 10;
     private static bool hitEffectPoolInitialized = false;
@@ -36,6 +39,17 @@ public class GohanSkillJ : MonoBehaviour, ISkill
         // Cache components
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        SetupAudio();
+    }
+    void SetupAudio()
+    {
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+        audioSource.playOnAwake = false;
+        audioSource.volume = audioVolume;
     }
 
     public void Initialize(GameObject skillOwner, bool ownerFacingRight)
@@ -114,6 +128,8 @@ public class GohanSkillJ : MonoBehaviour, ISkill
             rb = GetComponent<Rigidbody2D>();
         if (spriteRenderer == null)
             spriteRenderer = GetComponent<SpriteRenderer>();
+        if (audioSource == null)
+            SetupAudio();
 
         // Flip sprite theo hướng
         FlipSprite();
@@ -125,13 +141,21 @@ public class GohanSkillJ : MonoBehaviour, ISkill
         currentSpeed = 0f;
         isActive = true;
 
+        PlaySkillSound();
+
         // Bắt đầu di chuyển với gia tốc
         StartCoroutine(AccelerateMovement());
 
         // Tự deactivate sau lifeTime
         StartCoroutine(DeactivateAfterTime());
     }
-
+    void PlaySkillSound()
+    {
+        if (skillSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(skillSound);
+        }
+    }
     void FlipSprite()
     {
         if (spriteRenderer != null)
@@ -198,10 +222,6 @@ public class GohanSkillJ : MonoBehaviour, ISkill
 
             // Tạo hiệu ứng nổ tại vị trí va chạm
             SpawnHitEffect(hitPosition);
-
-            // Debug log
-            Debug.Log($"GohanSkillJ hit {other.name} at position {hitPosition}");
-
         }
     }
 
@@ -252,8 +272,6 @@ public class GohanSkillJ : MonoBehaviour, ISkill
 
             // Tự động return về pool hoặc destroy sau một thời gian
             StartCoroutine(ReturnHitEffectToPool(effect));
-
-            Debug.Log($"Hit effect spawned at {position}");
         }
     }
 
