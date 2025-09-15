@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1773438383176070611}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: SpawnSkillJRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7100504827877707317}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2953948023407875416}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: SpawnSkillKRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 464899793686658539}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: SpawnSkillKLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,9 +141,10 @@ GameObject:
   - component: {fileID: 2580369765455643864}
   - component: {fileID: 6101245646799060252}
   - component: {fileID: 5893011781553726107}
-  m_Layer: 10
+  - component: {fileID: -1084067220235594428}
+  m_Layer: 12
   m_Name: Raditz
-  m_TagString: Player
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -212,8 +213,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -936466121
-  m_SortingLayer: 9
+  m_SortingLayerID: 1572006635
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: -7809674675708065630, guid: c2114c29ebc714f41ae77c7e77a549f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -321,7 +322,8 @@ MonoBehaviour:
   jumpKey1: 119
   jumpKey2: 32
   dropKey: 115
-  UseAIControl: 0
+  jumpAudioClip: {fileID: 8300000, guid: a97b9e64db55dae48b4c474e561ba443, type: 3}
+  UseAIControl: 1
 --- !u!95 &5307708894651554303
 Animator:
   serializedVersion: 7
@@ -387,9 +389,9 @@ MonoBehaviour:
   cooldownEnemyAttack: 1
   characterUIPrefab: {fileID: 0}
   animator: {fileID: 0}
-  isFacingRight: 0
+  isFacingRight: 1
   skillFactory: {fileID: 0}
-  UseAIControl: 0
+  UseAIControl: 1
 --- !u!114 &5893011781553726107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -414,6 +416,28 @@ MonoBehaviour:
   takeDamageParameter: IsTakeDamage
   isDeadParameter: IsDead
   deathAnimationDelay: 1
+  autoDisableOnDeath: 1
+  componentsToDisable: []
+--- !u!114 &-1084067220235594428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3468869829448353738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e3c0504f9418a41b242c83fc038464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  detectionRange: 15
+  decisionInterval: 0.3
+  minDistanceToTarget: 2.5
+  jumpHeightThreshold: 1.5
+  idleTime: 3
 --- !u!1 &5122620647821134944
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,7 +447,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6817401318882266738}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: SpawnSkillL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -454,7 +478,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2570882282954232054}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: SpawnSkillHRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -485,7 +509,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4592488786246286665}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: SpawnSkillJLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -516,7 +540,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8793587346344899598}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: SpawnSkillHLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
