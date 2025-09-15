@@ -4,6 +4,8 @@ using System.Collections;
 public class GohanSkillL : MonoBehaviour, ISkill
 {
     [Header("Skill L Settings")]
+    [SerializeField] private AudioSource SkillLAudioSource;
+    [SerializeField] private AudioClip SkillLAudioClip;
     public float buffDuration = 30f;
 
     [Header("New Cooldowns While Buff Active")]
@@ -67,6 +69,12 @@ public class GohanSkillL : MonoBehaviour, ISkill
         inputHandle.cooldownJ = overrideCooldownJ;
         inputHandle.cooldownK = overrideCooldownK;
 
+        // Play skill sound effect
+        if (SkillLAudioSource != null && SkillLAudioClip != null)
+        {
+            SkillLAudioSource.PlayOneShot(SkillLAudioClip);
+        }
+
         // Tạo Aura
         if (auraPrefab != null)
         {
@@ -79,7 +87,7 @@ public class GohanSkillL : MonoBehaviour, ISkill
             if (ownerSr != null && auraSr != null)
             {
                 auraSr.sortingLayerID = ownerSr.sortingLayerID;
-                auraSr.sortingOrder = ownerSr.sortingOrder -1;
+                auraSr.sortingOrder = ownerSr.sortingOrder - 1;
             }
         }
 

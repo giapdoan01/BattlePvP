@@ -275,6 +275,8 @@ MonoBehaviour:
   jumpKey1: 119
   jumpKey2: 32
   dropKey: 115
+  jumpAudioClip: {fileID: 8300000, guid: a97b9e64db55dae48b4c474e561ba443, type: 3}
+  walkSoundClip: {fileID: 8300000, guid: 6a10f863ee126b648b0f97092bfea106, type: 3}
   UseAIControl: 1
 --- !u!114 &7508526774996912607
 MonoBehaviour:
@@ -299,7 +301,12 @@ MonoBehaviour:
   useAnimations: 1
   takeDamageParameter: IsTakeDamage
   isDeadParameter: IsDead
-  deathAnimationDelay: 1
+  deathAnimationDelay: 2
+  autoDisableOnDeath: 1
+  componentsToDisable:
+  - {fileID: 349542185958288173}
+  - {fileID: 4806567641714540487}
+  - {fileID: 726940232943954864}
 --- !u!114 &4806567641714540487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,6 +324,7 @@ MonoBehaviour:
   cooldownK: 4
   cooldownL: 70
   cooldownEnemyAttack: 1
+  characterUIPrefab: {fileID: 0}
   animator: {fileID: 0}
   isFacingRight: 1
   skillFactory: {fileID: 0}
@@ -336,8 +344,8 @@ MonoBehaviour:
   targetLayer:
     serializedVersion: 2
     m_Bits: 1024
-  detectionRange: 10
-  decisionInterval: 0.4
+  detectionRange: 20
+  decisionInterval: 0.2
   minDistanceToTarget: 3
   jumpHeightThreshold: 1.5
   idleTime: 2

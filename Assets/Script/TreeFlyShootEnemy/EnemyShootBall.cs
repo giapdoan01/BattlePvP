@@ -4,6 +4,8 @@ using System.Collections;
 public class EnemyShootBall : MonoBehaviour
 {
     [Header("Skill Settings")]
+    public AudioSource ShootBallAudioSource;
+    public AudioClip ShootBallAudioClip;
     public float projectileSpeed = 8f;
     public float lifeTime = 5f;
     public float damage = 10f;
@@ -31,6 +33,11 @@ public class EnemyShootBall : MonoBehaviour
 
         // Reset trạng thái
         isActive = true;
+        //Âm thanh bắn bóng
+        if (ShootBallAudioSource != null && ShootBallAudioClip != null)
+        {
+            ShootBallAudioSource.PlayOneShot(ShootBallAudioClip);
+        }
 
         // Stop coroutine cũ nếu có
         StopAllCoroutines();

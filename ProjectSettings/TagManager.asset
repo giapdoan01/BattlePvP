@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - SpawnPoint
   - Boss
+  - Audio
   layers:
   - Default
   - TransparentFX
@@ -78,7 +79,13 @@ TagManager:
   - name: 'UI '
     uniqueID: 3180814191
     locked: 0
-  - name: Text, Button
+  - name: Image
+    uniqueID: 762141709
+    locked: 0
+  - name: Text
+    uniqueID: 3747883173
+    locked: 0
+  - name: Button
     uniqueID: 1511502451
     locked: 0
   m_RenderingLayers:

@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class GotenSkillH : MonoBehaviour, ISkill
 {
+    public AudioSource kickSoundSource; // Nguồn âm thanh để phát âm thanh khi phóng chiêu
+    public AudioClip kickSound; // Âm thanh khi phóng chiêu
     public float damage = 20f;
     public float lifeTime = 0.3f; // thời gian hitbox tồn tại
 
@@ -29,6 +31,10 @@ public class GotenSkillH : MonoBehaviour, ISkill
     void Start()
     {
         Destroy(gameObject, lifeTime); // tự hủy sau khi hết thời gian hitbox
+        if (kickSoundSource != null && kickSound != null)
+        {
+            kickSoundSource.PlayOneShot(kickSound);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)

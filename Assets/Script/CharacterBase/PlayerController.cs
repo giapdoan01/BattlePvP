@@ -4,7 +4,7 @@
 public class PlayerController : MonoBehaviour
 {
     [Header("🏃 Movement Settings")]
-    [SerializeField] private float playerSpeed = 5f;
+    [SerializeField] public float playerSpeed = 5f;
     [SerializeField] private float jumpForce = 10f;
 
     [Header("🌍 Ground Detection")]
@@ -17,25 +17,24 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private KeyCode jumpKey2 = KeyCode.Space;
     [SerializeField] private KeyCode dropKey = KeyCode.S;
 
+    [Header("️🎧 Audio")]
+    [SerializeField] private AudioClip jumpAudioClip;
+    MainSceneAudioManager audioManager;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private BoxCollider2D boxCol;
-
-
     private bool isGrounded;
     private bool isFacingRight = true;
-
-
     private Vector2 originalColliderOffset;
     private Vector3 originalGroundCheckLocalPos;
-
     public float AIXInput { get; set; } = 0f;
     public bool UseAIControl = false;
 
     private void Awake()
     {
         // Get all components
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<MainSceneAudioManager>();
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
@@ -65,7 +64,7 @@ public class PlayerController : MonoBehaviour
     {
         MovePlayer();
     }
-    
+
     // Xử lý input người chơi
     void HandleInput()
     {
@@ -91,11 +90,14 @@ public class PlayerController : MonoBehaviour
         else if (moveInput > 0 && !isFacingRight)
             Flip(true);
     }
-
     // Nhảy
     public void Jump()
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        if (audioManager != null && jumpAudioClip != null)
+        {
+            audioManager.playAudioSFX(jumpAudioClip);
+        }
     }
 
     // Kiểm tra xem người chơi có đang chạm đất không

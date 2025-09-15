@@ -274,6 +274,8 @@ MonoBehaviour:
   jumpKey1: 119
   jumpKey2: 32
   dropKey: 115
+  jumpAudioClip: {fileID: 8300000, guid: a97b9e64db55dae48b4c474e561ba443, type: 3}
+  walkSoundClip: {fileID: 8300000, guid: 6a10f863ee126b648b0f97092bfea106, type: 3}
   UseAIControl: 0
 --- !u!114 &7508526774996912607
 MonoBehaviour:
@@ -289,7 +291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 2000
   healthBarPrefab: {fileID: 1343251023189175155, guid: 701b4c85df0c9624489206fa0b58a50a, type: 3}
-  takeDamageDuration: 0.5
+  takeDamageDuration: 0.2
   canRespawn: 0
   respawnTime: 3
   respawnPoint: {fileID: 0}
@@ -298,7 +300,7 @@ MonoBehaviour:
   useAnimations: 1
   takeDamageParameter: IsTakeDamage
   isDeadParameter: IsDead
-  deathAnimationDelay: 1
+  deathAnimationDelay: 2
   autoDisableOnDeath: 1
   componentsToDisable: []
 --- !u!114 &4806567641714540487

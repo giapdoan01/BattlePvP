@@ -4,6 +4,8 @@ using System.Collections;
 public class GohanSkillJ : MonoBehaviour, ISkill
 {
     [Header("Skill Settings")]
+    public AudioSource SkillJAudioSource;
+    public AudioClip SkillJAudioClip;
     public float maxSpeed = 20f;
     public float accelerationTime = 5f;
     public float damage = 30f;
@@ -14,10 +16,6 @@ public class GohanSkillJ : MonoBehaviour, ISkill
     public bool destroyOnHit = false; // Có destroy skill sau khi hit không
     public float hitEffectDuration = 1f; // Thời gian hiệu ứng nổ tồn tại
 
-    [Header("Audio Settings")]
-    public AudioClip skillSound;       // Âm thanh khi phát skill
-    public float audioVolume = 0.7f;
-    private AudioSource audioSource;
     private static string hitEffectPoolTag = "SkillJHitEffect";
     private static int hitEffectPoolSize = 10;
     private static bool hitEffectPoolInitialized = false;
@@ -39,18 +37,8 @@ public class GohanSkillJ : MonoBehaviour, ISkill
         // Cache components
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        SetupAudio();
     }
-    void SetupAudio()
-    {
-        audioSource = GetComponent<AudioSource>();
-        if (audioSource == null)
-        {
-            audioSource = gameObject.AddComponent<AudioSource>();
-        }
-        audioSource.playOnAwake = false;
-        audioSource.volume = audioVolume;
-    }
+    
 
     public void Initialize(GameObject skillOwner, bool ownerFacingRight)
     {
@@ -128,9 +116,6 @@ public class GohanSkillJ : MonoBehaviour, ISkill
             rb = GetComponent<Rigidbody2D>();
         if (spriteRenderer == null)
             spriteRenderer = GetComponent<SpriteRenderer>();
-        if (audioSource == null)
-            SetupAudio();
-
         // Flip sprite theo hướng
         FlipSprite();
 
@@ -140,21 +125,16 @@ public class GohanSkillJ : MonoBehaviour, ISkill
         // Reset trạng thái
         currentSpeed = 0f;
         isActive = true;
-
-        PlaySkillSound();
-
+        //Âm thanh Skill
+        if (SkillJAudioSource != null && SkillJAudioClip != null)
+        {
+            SkillJAudioSource.PlayOneShot(SkillJAudioClip);
+        }
         // Bắt đầu di chuyển với gia tốc
         StartCoroutine(AccelerateMovement());
 
         // Tự deactivate sau lifeTime
         StartCoroutine(DeactivateAfterTime());
-    }
-    void PlaySkillSound()
-    {
-        if (skillSound != null && audioSource != null)
-        {
-            audioSource.PlayOneShot(skillSound);
-        }
     }
     void FlipSprite()
     {

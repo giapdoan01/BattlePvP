@@ -4,6 +4,8 @@ using UnityEngine;
 public class GohanSkillK : MonoBehaviour, ISkill
 {
     [Header("Teleport Settings")]
+    [SerializeField] private AudioSource SkillKAudioSource;
+    [SerializeField] private AudioClip SkillKAudioClip;
     [SerializeField] private float teleportDistance = 5f;
     [SerializeField] private float teleportDuration = 0.2f;
     [SerializeField] private LayerMask obstacleLayerMask = -1;
@@ -38,7 +40,11 @@ public class GohanSkillK : MonoBehaviour, ISkill
             DestroySelf();
             yield break;
         }
-
+        //Âm thanh Skill K
+        if (SkillKAudioSource != null && SkillKAudioClip != null)
+        {
+            SkillKAudioSource.PlayOneShot(SkillKAudioClip);
+        }
         
         SetOwnerPhysics(false);
         yield return new WaitForSeconds(0.1f);
