@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: 2b12121f4aa5f03428588eba283d8260
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9167674598647552665
+    second: Goten-Sheet 1_0
+  - first:
+      213: 8962514029542610628
+    second: Goten-Sheet 1_1
+  - first:
+      213: -2693867016986542278
+    second: Goten-Sheet 1_2
+  - first:
+      213: 9167599539719676402
+    second: Goten-Sheet 1_3
+  - first:
+      213: 2395997655505034093
+    second: Goten-Sheet 1_4
+  - first:
+      213: -1720412672576947043
+    second: Goten-Sheet 1_5
+  - first:
+      213: -4688466523654606640
+    second: Goten-Sheet 1_6
+  - first:
+      213: -6148658661925619972
+    second: Goten-Sheet 1_7
+  - first:
+      213: 3099952721655435457
+    second: Goten-Sheet 1_8
+  - first:
+      213: -7868674677004381124
+    second: Goten-Sheet 1_9
+  - first:
+      213: -3505763736309892699
+    second: Goten-Sheet 1_10
+  - first:
+      213: 1864423308598032426
+    second: Goten-Sheet 1_11
+  - first:
+      213: -7166818131780514706
+    second: Goten-Sheet 1_12
+  - first:
+      213: -1223328475597024016
+    second: Goten-Sheet 1_13
+  - first:
+      213: -9088987313635452416
+    second: Goten-Sheet 1_14
+  - first:
+      213: 8952211162936825442
+    second: Goten-Sheet 1_15
+  - first:
+      213: 5304337512311379816
+    second: Goten-Sheet 1_16
+  - first:
+      213: -1808464507783752073
+    second: Goten-Sheet 1_17
+  - first:
+      213: 2758219158955723958
+    second: Goten-Sheet 1_18
+  - first:
+      213: -8207457995939596822
+    second: Goten-Sheet 1_19
+  - first:
+      213: -151923129134016306
+    second: Goten-Sheet 1_20
+  - first:
+      213: -4402566633421922886
+    second: Goten-Sheet 1_21
+  - first:
+      213: 2648525705780266307
+    second: Goten-Sheet 1_22
+  - first:
+      213: 2603833481094204649
+    second: Goten-Sheet 1_23
+  - first:
+      213: -8910455591272883812
+    second: Goten-Sheet 1_24
+  - first:
+      213: -7307320000700555208
+    second: Goten-Sheet 1_25
+  - first:
+      213: 3780499416160374110
+    second: Goten-Sheet 1_26
+  - first:
+      213: -1452967188848944484
+    second: Goten-Sheet 1_27
+  - first:
+      213: -3342865765183756367
+    second: Goten-Sheet 1_28
+  - first:
+      213: -2355526010561015950
+    second: Goten-Sheet 1_29
+  - first:
+      213: 8869817149225185956
+    second: Goten-Sheet 1_30
+  - first:
+      213: 5306695457883211388
+    second: Goten-Sheet 1_31
+  - first:
+      213: 6961085140421792
+    second: Goten-Sheet 1_32
+  - first:
+      213: -5951878413326326307
+    second: Goten-Sheet 1_33
+  - first:
+      213: -7640553343780354618
+    second: Goten-Sheet 1_34
+  - first:
+      213: -9025218033493080108
+    second: Goten-Sheet 1_35
+  - first:
+      213: 4903770079845354683
+    second: Goten-Sheet 1_36
+  - first:
+      213: -1272997619839920667
+    second: Goten-Sheet 1_37
+  - first:
+      213: 8787315160377451878
+    second: Goten-Sheet 1_38
+  - first:
+      213: -8795227781068641712
+    second: Goten-Sheet 1_39
+  - first:
+      213: 2725240705112941588
+    second: Goten-Sheet 1_40
+  - first:
+      213: -2214000261483475875
+    second: Goten-Sheet 1_41
+  - first:
+      213: 8612074649885094220
+    second: Goten-Sheet 1_42
+  - first:
+      213: 1733138766621622107
+    second: Goten-Sheet 1_43
+  - first:
+      213: -1407979148153847096
+    second: Goten-Sheet 1_44
+  - first:
+      213: 6976030991917653105
+    second: Goten-Sheet 1_45
+  - first:
+      213: -7327604599227710846
+    second: Goten-Sheet 1_46
+  - first:
+      213: 4805540416442229660
+    second: Goten-Sheet 1_47
+  - first:
+      213: -3566357230202021284
+    second: Goten-Sheet 1_48
+  - first:
+      213: 4603325759660236093
+    second: Goten-Sheet 1_49
+  - first:
+      213: 609771519961378669
+    second: Goten-Sheet 1_50
+  - first:
+      213: 1144582421651732991
+    second: Goten-Sheet 1_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goten-Sheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 126
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a52cc997f1a3f70800000000000000
+      internalID: 9167674598647552665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 3905
+        y: 112
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c69751460f316c70800000000000000
+      internalID: 8962514029542610628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 4061
+        y: 112
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f306488367d9ad0800000000000000
+      internalID: -2693867016986542278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 4099
+        y: 121
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1a608953bd93f70800000000000000
+      internalID: 9167599539719676402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 62
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bdb035c2b404120800000000000000
+      internalID: 2395997655505034093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 4266
+        y: 124
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c78f71acddf18e0800000000000000
+      internalID: -1720412672576947043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 4301
+        y: 127
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0b14c89883feeb0800000000000000
+      internalID: -4688466523654606640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 4319
+        y: 133
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf67bc226839baaa0800000000000000
+      internalID: -6148658661925619972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 4454
+        y: 63
+        width: 88
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c017ca739e350b20800000000000000
+      internalID: 3099952721655435457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 4490
+        y: 127
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34da00421adcc290800000000000000
+      internalID: -7868674677004381124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 4661
+        y: 62
+        width: 81
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a97dc6c476095fc0800000000000000
+      internalID: -3505763736309892699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 4855
+        y: 54
+        width: 97
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28b1fbfe13cfd910800000000000000
+      internalID: 1864423308598032426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 76
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6cc46d61e85a8c90800000000000000
+      internalID: -7166818131780514706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 73
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f45b60ab3dd50fe0800000000000000
+      internalID: -1223328475597024016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 73
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a1aba913e6dd180800000000000000
+      internalID: -9088987313635452416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 71
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266d2213f94ac3c70800000000000000
+      internalID: 8952211162936825442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 71
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86759162ddacc9940800000000000000
+      internalID: 5304337512311379816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 71
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776d5a0ac1b07e6e0800000000000000
+      internalID: -1808464507783752073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 71
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc8b3e16b9274620800000000000000
+      internalID: 2758219158955723958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 114
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5b41b0070491e80800000000000000
+      internalID: -8207457995939596822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_20
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 84
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec81dce08b244edf0800000000000000
+      internalID: -151923129134016306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_21
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 57
+        width: 78
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd16e209f0f6e2c0800000000000000
+      internalID: -4402566633421922886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_22
+      rect:
+        serializedVersion: 2
+        x: 3879
+        y: 61
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345068fc81471c420800000000000000
+      internalID: 2648525705780266307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_23
+      rect:
+        serializedVersion: 2
+        x: 4084
+        y: 118
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec83ee51cca22420800000000000000
+      internalID: 2603833481094204649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_24
+      rect:
+        serializedVersion: 2
+        x: 4087
+        y: 74
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99594f69d3b75480800000000000000
+      internalID: -8910455591272883812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_25
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 71
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830e22adc2f279a90800000000000000
+      internalID: -7307320000700555208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_26
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 71
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d8fc56038077430800000000000000
+      internalID: 3780499416160374110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_27
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 71
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a5c563a0606dbe0800000000000000
+      internalID: -1452967188848944484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_28
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 71
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7686e3c41cb91d0800000000000000
+      internalID: -3342865765183756367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_29
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 76
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f4151d29d7f4fd0800000000000000
+      internalID: -2355526010561015950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_30
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 71
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a23c32f3bbe71b70800000000000000
+      internalID: 8869817149225185956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_31
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 74
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76ce42276b25a940800000000000000
+      internalID: 5306695457883211388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_32
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 81
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0accb0fe11bb81000800000000000000
+      internalID: 6961085140421792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_33
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 84
+        width: 56
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd56e531e1ea66da0800000000000000
+      internalID: -5951878413326326307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_34
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 86
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c58c88173d47f590800000000000000
+      internalID: -7640553343780354618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_35
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 89
+        width: 53
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d70235240cffb280800000000000000
+      internalID: -9025218033493080108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_36
+      rect:
+        serializedVersion: 2
+        x: 3435
+        y: 71
+        width: 91
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc0f5508e0bd0440800000000000000
+      internalID: 4903770079845354683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_37
+      rect:
+        serializedVersion: 2
+        x: 4065
+        y: 86
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5168dc867655ee0800000000000000
+      internalID: -1272997619839920667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_38
+      rect:
+        serializedVersion: 2
+        x: 4133
+        y: 84
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665e3b7c490d2f970800000000000000
+      internalID: 8787315160377451878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_39
+      rect:
+        serializedVersion: 2
+        x: 5088
+        y: 87
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05aa1c6aee211f580800000000000000
+      internalID: -8795227781068641712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_40
+      rect:
+        serializedVersion: 2
+        x: 5288
+        y: 87
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41421bb7bfff1d520800000000000000
+      internalID: 2725240705112941588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_41
+      rect:
+        serializedVersion: 2
+        x: 5488
+        y: 87
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cc7a11e7a4641e0800000000000000
+      internalID: -2214000261483475875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_42
+      rect:
+        serializedVersion: 2
+        x: 5688
+        y: 87
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c413c8de34c348770800000000000000
+      internalID: 8612074649885094220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_43
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 51
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fb0f296885d0810800000000000000
+      internalID: 1733138766621622107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_44
+      rect:
+        serializedVersion: 2
+        x: 4071
+        y: 72
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2022fac6ad57ce0800000000000000
+      internalID: -1407979148153847096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_45
+      rect:
+        serializedVersion: 2
+        x: 4094
+        y: 66
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c1e5ff937dfc060800000000000000
+      internalID: 6976030991917653105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_46
+      rect:
+        serializedVersion: 2
+        x: 4102
+        y: 66
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2828388b07e1f4a90800000000000000
+      internalID: -7327604599227710846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_47
+      rect:
+        serializedVersion: 2
+        x: 4293
+        y: 54
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9362d34c85b0b240800000000000000
+      internalID: 4805540416442229660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_48
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 31
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a99a79ef0c18ec0800000000000000
+      internalID: -3566357230202021284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_49
+      rect:
+        serializedVersion: 2
+        x: 3904
+        y: 58
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d14f1936c42ef30800000000000000
+      internalID: 4603325759660236093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_50
+      rect:
+        serializedVersion: 2
+        x: 4073
+        y: 51
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fa27977f7567800800000000000000
+      internalID: 609771519961378669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goten-Sheet 1_51
+      rect:
+        serializedVersion: 2
+        x: 4475
+        y: 62
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff935b2f5af52ef00800000000000000
+      internalID: 1144582421651732991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Goten-Sheet 1_0: 9167674598647552665
+      Goten-Sheet 1_1: 8962514029542610628
+      Goten-Sheet 1_10: -3505763736309892699
+      Goten-Sheet 1_11: 1864423308598032426
+      Goten-Sheet 1_12: -7166818131780514706
+      Goten-Sheet 1_13: -1223328475597024016
+      Goten-Sheet 1_14: -9088987313635452416
+      Goten-Sheet 1_15: 8952211162936825442
+      Goten-Sheet 1_16: 5304337512311379816
+      Goten-Sheet 1_17: -1808464507783752073
+      Goten-Sheet 1_18: 2758219158955723958
+      Goten-Sheet 1_19: -8207457995939596822
+      Goten-Sheet 1_2: -2693867016986542278
+      Goten-Sheet 1_20: -151923129134016306
+      Goten-Sheet 1_21: -4402566633421922886
+      Goten-Sheet 1_22: 2648525705780266307
+      Goten-Sheet 1_23: 2603833481094204649
+      Goten-Sheet 1_24: -8910455591272883812
+      Goten-Sheet 1_25: -7307320000700555208
+      Goten-Sheet 1_26: 3780499416160374110
+      Goten-Sheet 1_27: -1452967188848944484
+      Goten-Sheet 1_28: -3342865765183756367
+      Goten-Sheet 1_29: -2355526010561015950
+      Goten-Sheet 1_3: 9167599539719676402
+      Goten-Sheet 1_30: 8869817149225185956
+      Goten-Sheet 1_31: 5306695457883211388
+      Goten-Sheet 1_32: 6961085140421792
+      Goten-Sheet 1_33: -5951878413326326307
+      Goten-Sheet 1_34: -7640553343780354618
+      Goten-Sheet 1_35: -9025218033493080108
+      Goten-Sheet 1_36: 4903770079845354683
+      Goten-Sheet 1_37: -1272997619839920667
+      Goten-Sheet 1_38: 8787315160377451878
+      Goten-Sheet 1_39: -8795227781068641712
+      Goten-Sheet 1_4: 2395997655505034093
+      Goten-Sheet 1_40: 2725240705112941588
+      Goten-Sheet 1_41: -2214000261483475875
+      Goten-Sheet 1_42: 8612074649885094220
+      Goten-Sheet 1_43: 1733138766621622107
+      Goten-Sheet 1_44: -1407979148153847096
+      Goten-Sheet 1_45: 6976030991917653105
+      Goten-Sheet 1_46: -7327604599227710846
+      Goten-Sheet 1_47: 4805540416442229660
+      Goten-Sheet 1_48: -3566357230202021284
+      Goten-Sheet 1_49: 4603325759660236093
+      Goten-Sheet 1_5: -1720412672576947043
+      Goten-Sheet 1_50: 609771519961378669
+      Goten-Sheet 1_51: 1144582421651732991
+      Goten-Sheet 1_6: -4688466523654606640
+      Goten-Sheet 1_7: -6148658661925619972
+      Goten-Sheet 1_8: 3099952721655435457
+      Goten-Sheet 1_9: -7868674677004381124
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

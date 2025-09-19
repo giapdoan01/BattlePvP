@@ -88,5 +88,8 @@ TagManager:
   - name: Button
     uniqueID: 1511502451
     locked: 0
+  - name: Particle Effect
+    uniqueID: 2882978217
+    locked: 0
   m_RenderingLayers:
   - Default

@@ -1,0 +1,1131 @@
+fileFormatVersion: 2
+guid: 62d6f5aa3085f4f4da304c693c7aceaf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 760662521227524404
+    second: Trunks-Sheet 1_0
+  - first:
+      213: 8487351785729701699
+    second: Trunks-Sheet 1_1
+  - first:
+      213: 8640734967326421103
+    second: Trunks-Sheet 1_2
+  - first:
+      213: -4112355737652258501
+    second: Trunks-Sheet 1_3
+  - first:
+      213: -2888279206511282546
+    second: Trunks-Sheet 1_4
+  - first:
+      213: -2801335243565078995
+    second: Trunks-Sheet 1_5
+  - first:
+      213: 3101089417322279322
+    second: Trunks-Sheet 1_6
+  - first:
+      213: -3319568393530761048
+    second: Trunks-Sheet 1_7
+  - first:
+      213: 7337957674098166538
+    second: Trunks-Sheet 1_8
+  - first:
+      213: -4109387773490432513
+    second: Trunks-Sheet 1_9
+  - first:
+      213: 1798344382353079964
+    second: Trunks-Sheet 1_10
+  - first:
+      213: 510891822554839409
+    second: Trunks-Sheet 1_11
+  - first:
+      213: -1725786293431409317
+    second: Trunks-Sheet 1_12
+  - first:
+      213: 404006641517565818
+    second: Trunks-Sheet 1_13
+  - first:
+      213: 3803752501641690985
+    second: Trunks-Sheet 1_14
+  - first:
+      213: 7306033789981429963
+    second: Trunks-Sheet 1_15
+  - first:
+      213: -4341736310574988416
+    second: Trunks-Sheet 1_16
+  - first:
+      213: -3978703191748222789
+    second: Trunks-Sheet 1_17
+  - first:
+      213: -3758692957019886035
+    second: Trunks-Sheet 1_18
+  - first:
+      213: 2109238474566030266
+    second: Trunks-Sheet 1_19
+  - first:
+      213: -4964924807753993403
+    second: Trunks-Sheet 1_20
+  - first:
+      213: -4247388202863409876
+    second: Trunks-Sheet 1_21
+  - first:
+      213: -1793916943662056507
+    second: Trunks-Sheet 1_22
+  - first:
+      213: -295298605412484070
+    second: Trunks-Sheet 1_23
+  - first:
+      213: -1535635075786061565
+    second: Trunks-Sheet 1_24
+  - first:
+      213: 8232666967171447267
+    second: Trunks-Sheet 1_25
+  - first:
+      213: -1061824689677883979
+    second: Trunks-Sheet 1_26
+  - first:
+      213: -3161613274395851879
+    second: Trunks-Sheet 1_27
+  - first:
+      213: 6722503390817823268
+    second: Trunks-Sheet 1_28
+  - first:
+      213: -3890461263867314952
+    second: Trunks-Sheet 1_29
+  - first:
+      213: 337268996646550584
+    second: Trunks-Sheet 1_30
+  - first:
+      213: 5361281380423927917
+    second: Trunks-Sheet 1_31
+  - first:
+      213: -2573879704087144021
+    second: Trunks-Sheet 1_32
+  - first:
+      213: -8722562142761045916
+    second: Trunks-Sheet 1_33
+  - first:
+      213: -6102311400005355164
+    second: Trunks-Sheet 1_34
+  - first:
+      213: 8464154859468140027
+    second: Trunks-Sheet 1_35
+  - first:
+      213: -316609497822938976
+    second: Trunks-Sheet 1_36
+  - first:
+      213: 4104504060421304874
+    second: Trunks-Sheet 1_37
+  - first:
+      213: 8737808188077748355
+    second: Trunks-Sheet 1_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 3473
+        y: 77
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43938bb688a6e8a00800000000000000
+      internalID: 760662521227524404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 4313
+        y: 143
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34732303b7129c570800000000000000
+      internalID: 8487351785729701699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 4327
+        y: 134
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60b9c51cae0ae770800000000000000
+      internalID: 8640734967326421103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 4463
+        y: 58
+        width: 73
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39923bae3afde6c0800000000000000
+      internalID: -4112355737652258501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 78
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e867fbb4d55cae7d0800000000000000
+      internalID: -2888279206511282546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 78
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2665862078af19d0800000000000000
+      internalID: -2801335243565078995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 78
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91b7301568490b20800000000000000
+      internalID: 3101089417322279322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 78
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a02cf742268ee1d0800000000000000
+      internalID: -3319568393530761048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 78
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b097d50a9a5d560800000000000000
+      internalID: 7337957674098166538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 78
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5f4cca79588f6c0800000000000000
+      internalID: -4109387773490432513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 78
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e79fd00b005f810800000000000000
+      internalID: 1798344382353079964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 78
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1797802e76d071700800000000000000
+      internalID: 510891822554839409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 78
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5568cd7286cc08e0800000000000000
+      internalID: -1725786293431409317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 78
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a779d8266e15b9500800000000000000
+      internalID: 404006641517565818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 78
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f3bd14fb4a9c430800000000000000
+      internalID: 3803752501641690985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 78
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc018d0e50f346560800000000000000
+      internalID: 7306033789981429963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 2487
+        y: 78
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08343cb34dd0fb3c0800000000000000
+      internalID: -4341736310574988416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 2678
+        y: 90
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb06225f68ec8c8c0800000000000000
+      internalID: -3978703191748222789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 84
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e21158ba076dbc0800000000000000
+      internalID: -3758692957019886035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 86
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab35817a735854d10800000000000000
+      internalID: 2109238474566030266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_20
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 82
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5437c41513b091bb0800000000000000
+      internalID: -4964924807753993403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_21
+      rect:
+        serializedVersion: 2
+        x: 3462
+        y: 89
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c254421eeee3e05c0800000000000000
+      internalID: -4247388202863409876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_22
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 106
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbf7785b0aba17e0800000000000000
+      internalID: -1793916943662056507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_23
+      rect:
+        serializedVersion: 2
+        x: 3512
+        y: 89
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c78b1ab73e6ebf0800000000000000
+      internalID: -295298605412484070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_24
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 78
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3094423e80450bae0800000000000000
+      internalID: -1535635075786061565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_25
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 78
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9b854fcfe404270800000000000000
+      internalID: 8232666967171447267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_26
+      rect:
+        serializedVersion: 2
+        x: 4087
+        y: 78
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5a20e0214a341f0800000000000000
+      internalID: -1061824689677883979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_27
+      rect:
+        serializedVersion: 2
+        x: 4263
+        y: 62
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993c9765a71bf14d0800000000000000
+      internalID: -3161613274395851879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_28
+      rect:
+        serializedVersion: 2
+        x: 4663
+        y: 62
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a2e0377312b4d50800000000000000
+      internalID: 6722503390817823268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_29
+      rect:
+        serializedVersion: 2
+        x: 4855
+        y: 62
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc75c2d71e420ac0800000000000000
+      internalID: -3890461263867314952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_30
+      rect:
+        serializedVersion: 2
+        x: 5088
+        y: 87
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cbed29d583ea400800000000000000
+      internalID: 337268996646550584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_31
+      rect:
+        serializedVersion: 2
+        x: 5288
+        y: 87
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68851d9209176a40800000000000000
+      internalID: 5361281380423927917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_32
+      rect:
+        serializedVersion: 2
+        x: 5488
+        y: 87
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba95c4fcb0eb74cd0800000000000000
+      internalID: -2573879704087144021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_33
+      rect:
+        serializedVersion: 2
+        x: 5688
+        y: 87
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460357df1fb33f680800000000000000
+      internalID: -8722562142761045916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_34
+      rect:
+        serializedVersion: 2
+        x: 3101
+        y: 83
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4693dd5fc1c305ba0800000000000000
+      internalID: -6102311400005355164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_35
+      rect:
+        serializedVersion: 2
+        x: 3454
+        y: 75
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdae7aeff7b67570800000000000000
+      internalID: 8464154859468140027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_36
+      rect:
+        serializedVersion: 2
+        x: 3518
+        y: 75
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8bfb5d65d2b9bf0800000000000000
+      internalID: -316609497822938976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_37
+      rect:
+        serializedVersion: 2
+        x: 4313
+        y: 57
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a227f8442b026f830800000000000000
+      internalID: 4104504060421304874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunks-Sheet 1_38
+      rect:
+        serializedVersion: 2
+        x: 4319
+        y: 55
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380bfdd804ee24970800000000000000
+      internalID: 8737808188077748355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Trunks-Sheet 1_0: 760662521227524404
+      Trunks-Sheet 1_1: 8487351785729701699
+      Trunks-Sheet 1_10: 1798344382353079964
+      Trunks-Sheet 1_11: 510891822554839409
+      Trunks-Sheet 1_12: -1725786293431409317
+      Trunks-Sheet 1_13: 404006641517565818
+      Trunks-Sheet 1_14: 3803752501641690985
+      Trunks-Sheet 1_15: 7306033789981429963
+      Trunks-Sheet 1_16: -4341736310574988416
+      Trunks-Sheet 1_17: -3978703191748222789
+      Trunks-Sheet 1_18: -3758692957019886035
+      Trunks-Sheet 1_19: 2109238474566030266
+      Trunks-Sheet 1_2: 8640734967326421103
+      Trunks-Sheet 1_20: -4964924807753993403
+      Trunks-Sheet 1_21: -4247388202863409876
+      Trunks-Sheet 1_22: -1793916943662056507
+      Trunks-Sheet 1_23: -295298605412484070
+      Trunks-Sheet 1_24: -1535635075786061565
+      Trunks-Sheet 1_25: 8232666967171447267
+      Trunks-Sheet 1_26: -1061824689677883979
+      Trunks-Sheet 1_27: -3161613274395851879
+      Trunks-Sheet 1_28: 6722503390817823268
+      Trunks-Sheet 1_29: -3890461263867314952
+      Trunks-Sheet 1_3: -4112355737652258501
+      Trunks-Sheet 1_30: 337268996646550584
+      Trunks-Sheet 1_31: 5361281380423927917
+      Trunks-Sheet 1_32: -2573879704087144021
+      Trunks-Sheet 1_33: -8722562142761045916
+      Trunks-Sheet 1_34: -6102311400005355164
+      Trunks-Sheet 1_35: 8464154859468140027
+      Trunks-Sheet 1_36: -316609497822938976
+      Trunks-Sheet 1_37: 4104504060421304874
+      Trunks-Sheet 1_38: 8737808188077748355
+      Trunks-Sheet 1_4: -2888279206511282546
+      Trunks-Sheet 1_5: -2801335243565078995
+      Trunks-Sheet 1_6: 3101089417322279322
+      Trunks-Sheet 1_7: -3319568393530761048
+      Trunks-Sheet 1_8: 7337957674098166538
+      Trunks-Sheet 1_9: -4109387773490432513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

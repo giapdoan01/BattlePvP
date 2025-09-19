@@ -7,7 +7,7 @@ public class RaditzBossTrigger : MonoBehaviour
     [Header("Boss Settings")]
     public GameObject raditzBoss;
     public Animator raditzAnimator;
-    public float introAnimationDuration = 3f;
+    public float introAnimationDuration = 2.4f;
     public LoadPrefabChracter loadPrefabCharacter;
     
     [Header("Animation Parameters")]
@@ -19,9 +19,8 @@ public class RaditzBossTrigger : MonoBehaviour
     public Transform bossFocusPoint;
     
     [Header("Audio")]
-    public AudioClip introSound;
-    public AudioClip bossMusic;
-    private AudioSource audioSource;
+    public AudioClip bossRaditzMusic;
+    private AudioSource audioRaditzSource;
     
     // Lưu trữ thông tin camera ban đầu
     private Transform originalCameraFollow;
@@ -33,10 +32,10 @@ public class RaditzBossTrigger : MonoBehaviour
     {
         raditzBossAI = raditzBoss.GetComponent<BossRaditzAI>();
         // Thêm AudioSource nếu chưa có
-        audioSource = GetComponent<AudioSource>();
-        if (audioSource == null)
+        audioRaditzSource = GetComponent<AudioSource>();
+        if (audioRaditzSource == null)
         {
-            audioSource = gameObject.AddComponent<AudioSource>();
+            audioRaditzSource = gameObject.AddComponent<AudioSource>();
         }
         
         // Ẩn boss ban đầu
@@ -58,6 +57,7 @@ public class RaditzBossTrigger : MonoBehaviour
         }
     }
 
+    //Coroutine Intro Boss Raditz và bắt đầu trận đấu
     IEnumerator ActivateBossBattle()
     {
         // Hiện boss
@@ -67,30 +67,42 @@ public class RaditzBossTrigger : MonoBehaviour
         }
 
         bossFocusPoint.localScale = new Vector3(-1, 1, 1);
+
+        //Khóa di chuyển của người chơi trong thời gian hoạt ảnh intro
+        if (loadPrefabCharacter != null && LoadPrefabChracter.SpawnedCharacter != null)
+        {
+            PlayerController playerController = LoadPrefabChracter.SpawnedCharacter.GetComponent<PlayerController>();
+            if (playerController != null)
+            {
+                playerController.playerSpeed = 0;
+            }
+            else
+            {
+                Debug.LogWarning("PlayerController component not found on SpawnedCharacter.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("LoadPrefabChracter or SpawnedCharacter is null. Cannot disable player movement.");
+        }
         
         raditzBossAI.detectionRange = 3f;
         // Lưu trữ thông tin camera ban đầu
         
-
-        // Phát âm thanh intro nếu có
-        if (introSound != null && audioSource != null)
-        {
-            audioSource.PlayOneShot(introSound);
-        }
-
         // Kích hoạt animation intro bằng cách đặt boolean parameter
         if (raditzAnimator != null)
         {
             raditzAnimator.SetBool(openingAnimationParam, true);
             Debug.Log("Đang chạy hoạt ảnh intro của boss Raditz");
         }
+        yield return new WaitForSeconds(0.7f);
         if (virtualCamera != null)
         {
 
             // Chuyển camera focus sang boss
             if (bossFocusPoint != null)
             {
-                virtualCamera.Follow = bossFocusPoint; // Dịch chuyển lên trên một chút để
+                virtualCamera.Follow = bossFocusPoint; 
                 virtualCamera.LookAt = bossFocusPoint;
             }
             else if (raditzBoss != null)
@@ -104,7 +116,7 @@ public class RaditzBossTrigger : MonoBehaviour
         yield return new WaitForSeconds(introAnimationDuration);
 
         // Mở rộng phạm vi phát hiện của boss
-        raditzBossAI.detectionRange = 15f;
+        raditzBossAI.detectionRange = 30f;
 
         bossFocusPoint.localScale = new Vector3(1, 1, 1);
         // Tắt animation intro
@@ -128,15 +140,31 @@ public class RaditzBossTrigger : MonoBehaviour
         }
 
         // Phát nhạc boss
-        if (bossMusic != null && audioSource != null)
+        if (bossRaditzMusic != null && audioRaditzSource != null)
         {
-            audioSource.clip = bossMusic;
-            audioSource.loop = true;
-            audioSource.Play();
+            audioRaditzSource.clip = bossRaditzMusic;
+            audioRaditzSource.loop = true;
+            audioRaditzSource.Play();
+        }
+        // Mở khóa di chuyển của người chơi
+        if (loadPrefabCharacter != null && LoadPrefabChracter.SpawnedCharacter != null)
+        {
+            PlayerController playerController = LoadPrefabChracter.SpawnedCharacter.GetComponent<PlayerController>();
+            if (playerController != null)
+            {
+                playerController.playerSpeed = 10f;
+            }
+            else
+            {
+                Debug.LogWarning("PlayerController component not found on SpawnedCharacter.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("LoadPrefabChracter or SpawnedCharacter is null. Cannot enable player movement.");
         }
 
-
         Debug.Log("Trận đấu với boss Raditz đã bắt đầu!");
-        gameObject.SetActive(false);
+        Destroy(gameObject); // Xóa trigger sau khi kích hoạt
     }
 }

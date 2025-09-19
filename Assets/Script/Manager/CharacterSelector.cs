@@ -9,6 +9,7 @@ public class CharacterSelector : MonoBehaviour
     public Button[] ButtonCharacters;           // Các nút chọn nhân vật
     public Button Startgame;
     AudioManager audioManager;
+    public GameObject particleSelectEffect; // Hiệu ứng hạt khi chọn nhân vật
     private int characterSelectedIndex = 0;
     void Awake()
     {

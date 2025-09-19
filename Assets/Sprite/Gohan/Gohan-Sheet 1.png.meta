@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 64cf906f69cff284eb9775eec2816e2a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3823455168198550160
+    second: Gohan-Sheet 1_0
+  - first:
+      213: -4650287507973995207
+    second: Gohan-Sheet 1_1
+  - first:
+      213: -2865328399650824958
+    second: Gohan-Sheet 1_2
+  - first:
+      213: 381196169424704026
+    second: Gohan-Sheet 1_3
+  - first:
+      213: -2969309040289261595
+    second: Gohan-Sheet 1_4
+  - first:
+      213: 4044686206176192651
+    second: Gohan-Sheet 1_5
+  - first:
+      213: -759619587368845250
+    second: Gohan-Sheet 1_6
+  - first:
+      213: 1092454664273048079
+    second: Gohan-Sheet 1_7
+  - first:
+      213: 3202421645941695156
+    second: Gohan-Sheet 1_8
+  - first:
+      213: 5954842208416075283
+    second: Gohan-Sheet 1_9
+  - first:
+      213: -2342260653563902308
+    second: Gohan-Sheet 1_10
+  - first:
+      213: 8287246085144628777
+    second: Gohan-Sheet 1_11
+  - first:
+      213: 3996786794079376202
+    second: Gohan-Sheet 1_12
+  - first:
+      213: 645345617447768357
+    second: Gohan-Sheet 1_13
+  - first:
+      213: -1958632096893630147
+    second: Gohan-Sheet 1_14
+  - first:
+      213: -1331785415202935087
+    second: Gohan-Sheet 1_15
+  - first:
+      213: 5288648917389689329
+    second: Gohan-Sheet 1_16
+  - first:
+      213: 6928705394526145257
+    second: Gohan-Sheet 1_17
+  - first:
+      213: -212154435118153607
+    second: Gohan-Sheet 1_18
+  - first:
+      213: -6942837916889476000
+    second: Gohan-Sheet 1_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 23
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0922b1bc734af0530800000000000000
+      internalID: 3823455168198550160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 23
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93506c7562cd67fb0800000000000000
+      internalID: -4650287507973995207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 23
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d59fd600f4c38d0800000000000000
+      internalID: -2865328399650824958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 23
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a129c4c75e74a4500800000000000000
+      internalID: 381196169424704026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 23
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7d331f825eac6d0800000000000000
+      internalID: -2969309040289261595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 23
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88ed03ccac912830800000000000000
+      internalID: 4044686206176192651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 23
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30837a820a4575f0800000000000000
+      internalID: -759619587368845250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 23
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02b635aabd292f00800000000000000
+      internalID: 1092454664273048079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 23
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b260631589417c20800000000000000
+      internalID: 3202421645941695156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 48
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e842e3079d3a250800000000000000
+      internalID: 5954842208416075283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 42
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9603fc685e9e7fd0800000000000000
+      internalID: -2342260653563902308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 23
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92eca4f1866320370800000000000000
+      internalID: 8287246085144628777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 23
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43d210d960777730800000000000000
+      internalID: 3996786794079376202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 23
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521545d7b6ab4f800800000000000000
+      internalID: 645345617447768357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 23
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d390af23c7a81d4e0800000000000000
+      internalID: -1958632096893630147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 23
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de68c1983c848de0800000000000000
+      internalID: -1331785415202935087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 23
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f144ce7b2e056940800000000000000
+      internalID: 5288648917389689329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 27
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea4012b8d4b72060800000000000000
+      internalID: 6928705394526145257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 23
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97042415aa64e0df0800000000000000
+      internalID: -212154435118153607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gohan-Sheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 23
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06490b603b516af90800000000000000
+      internalID: -6942837916889476000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gohan-Sheet 1_0: 3823455168198550160
+      Gohan-Sheet 1_1: -4650287507973995207
+      Gohan-Sheet 1_10: -2342260653563902308
+      Gohan-Sheet 1_11: 8287246085144628777
+      Gohan-Sheet 1_12: 3996786794079376202
+      Gohan-Sheet 1_13: 645345617447768357
+      Gohan-Sheet 1_14: -1958632096893630147
+      Gohan-Sheet 1_15: -1331785415202935087
+      Gohan-Sheet 1_16: 5288648917389689329
+      Gohan-Sheet 1_17: 6928705394526145257
+      Gohan-Sheet 1_18: -212154435118153607
+      Gohan-Sheet 1_19: -6942837916889476000
+      Gohan-Sheet 1_2: -2865328399650824958
+      Gohan-Sheet 1_3: 381196169424704026
+      Gohan-Sheet 1_4: -2969309040289261595
+      Gohan-Sheet 1_5: 4044686206176192651
+      Gohan-Sheet 1_6: -759619587368845250
+      Gohan-Sheet 1_7: 1092454664273048079
+      Gohan-Sheet 1_8: 3202421645941695156
+      Gohan-Sheet 1_9: 5954842208416075283
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
