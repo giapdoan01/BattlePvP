@@ -367,9 +367,6 @@ MonoBehaviour:
   maxHealth: 100
   healthBarPrefab: {fileID: 1343251023189175155, guid: 701b4c85df0c9624489206fa0b58a50a, type: 3}
   takeDamageDuration: 0.5
-  canRespawn: 0
-  respawnTime: 3
-  respawnPoint: {fileID: 0}
   mainObject: {fileID: 0}
   autoFindRootParent: 1
   useAnimations: 1

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ObjectPool : MonoBehaviour
 {
-    public static ObjectPool Instance;
+    public static ObjectPool Instance { get; private set; }
     private Dictionary<string, Queue<GameObject>> pools = new Dictionary<string, Queue<GameObject>>();
 
     void Awake()
@@ -13,9 +13,18 @@ public class ObjectPool : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
-        else
+        else if (Instance != this)
         {
             Destroy(gameObject);
+        }
+    }
+
+    void OnDestroy()
+    {
+        // reset singleton khi bị Destroy để tránh giữ reference cũ
+        if (Instance == this)
+        {
+            Instance = null;
         }
     }
 
@@ -35,12 +44,23 @@ public class ObjectPool : MonoBehaviour
 
     public GameObject Get(string tag, Vector3 position, Quaternion rotation)
     {
-        if (!pools.ContainsKey(tag)) return null;
+        if (!pools.ContainsKey(tag))
+        {
+            Debug.LogWarning($"Pool with tag {tag} doesn't exist.");
+            return null;
+        }
 
         GameObject obj = pools[tag].Dequeue();
+        if (obj == null)
+        {
+            Debug.LogWarning($"Object with tag {tag} was destroyed!");
+            return null;
+        }
+
         obj.transform.position = position;
         obj.transform.rotation = rotation;
         obj.SetActive(true);
+
         pools[tag].Enqueue(obj);
         return obj;
     }

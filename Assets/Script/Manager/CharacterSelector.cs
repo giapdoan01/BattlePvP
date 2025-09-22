@@ -50,7 +50,10 @@ public class CharacterSelector : MonoBehaviour
     {
         audioManager.playAudioSFX(audioManager.startGameSFX);
         PlayerPrefs.SetInt("SelectCharacter", characterSelectedIndex);
+        PlayerPrefs.Save();
         Debug.Log($"Đã chọn {characterSelectedIndex}");
-        SceneManager.LoadScene("MainGameScene");
+
+        // Đảm bảo GameManager được tạo và sử dụng nó để load scene sạch
+        GameManager.Instance.LoadSceneClean("MainGameScene");
     }
 }

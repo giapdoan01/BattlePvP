@@ -6,7 +6,6 @@ public class SkillEnemyFactory : MonoBehaviour
     public GameObject shootBallPrefab;
 
     // Object Pool settings
-    private static bool poolInitialized = false;
     private static string poolTag = "EnemyShootBall";
     private static int poolSize = 15;
 
@@ -17,19 +16,18 @@ public class SkillEnemyFactory : MonoBehaviour
 
     void InitializePool()
     {
-        // Tạo ObjectPool singleton nếu chưa có
+        // Đảm bảo có ObjectPool instance
         if (ObjectPool.Instance == null)
         {
             GameObject poolObj = new GameObject("ObjectPool");
             poolObj.AddComponent<ObjectPool>();
         }
 
-        // Tạo pool cho EnemyShootBall nếu chưa có
-        if (!poolInitialized && shootBallPrefab != null)
+        // Luôn tạo pool lại mỗi lần scene load
+        if (shootBallPrefab != null)
         {
             ObjectPool.Instance.CreatePool(poolTag, shootBallPrefab, poolSize);
-            poolInitialized = true;
-            Debug.Log($"Created pool for {poolTag} with size {poolSize}");
+            Debug.Log($"(Re)Created pool for {poolTag} with size {poolSize}");
         }
     }
 
@@ -47,7 +45,12 @@ public class SkillEnemyFactory : MonoBehaviour
 
     GameObject CreateShootBall(GameObject owner, Vector3 spawnPos, Vector2 direction)
     {
-        // Lấy object từ pool
+        if (ObjectPool.Instance == null)
+        {
+            Debug.LogWarning("ObjectPool is not ready!");
+            return null;
+        }
+
         GameObject skillObj = ObjectPool.Instance.Get(poolTag, spawnPos, Quaternion.identity);
 
         if (skillObj != null)
